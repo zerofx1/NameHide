@@ -1,0 +1,4 @@
+name: NameHide
+version: '1.0.0'
+main: ru.quizie.nameHide.NameHide
+api-version: '1.21'

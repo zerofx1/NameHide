@@ -1,0 +1,7 @@
+[versions]
+lombok = "1.18.38"
+placeholderapi = "2.11.6"
+
+[libraries]
+lombok = { module = "org.projectlombok:lombok", version.ref = "lombok" }
+placeholderapi = { module = "me.clip:placeholderapi", version.ref = "placeholderapi" }
