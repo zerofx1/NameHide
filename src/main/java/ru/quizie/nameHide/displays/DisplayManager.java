@@ -74,11 +74,9 @@ public class DisplayManager {
         if (displayData == null) return;
 
         final TextDisplay display = displayData.getTextDisplay();
-        final String newText = PlaceholderAPI.setPlaceholders(player, Colorizer.use(Config.display));
+        final Component newText = Component.text(PlaceholderAPI.setPlaceholders(player, Colorizer.use(Config.display)));
 
-        if (!display.text().equals(newText)) {
-            display.text(Component.text(newText));
-        }
+        if (!display.text().equals(newText)) display.text(newText);
     }
 
 
